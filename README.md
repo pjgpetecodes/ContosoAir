@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/az400-2/cc0e0160-6faa-4791-a3bc-f55513cf8410/271ab1db-c022-4d1a-9753-7a93f622b01d/_apis/work/boardbadge/e57c3d13-28e2-4cb7-97f9-f3af45d56c52)](https://dev.azure.com/az400-2/cc0e0160-6faa-4791-a3bc-f55513cf8410/_boards/board/t/271ab1db-c022-4d1a-9753-7a93f622b01d/Microsoft.RequirementCategory)
 [![Build Status](https://dev.azure.com/az400-2/az400/_apis/build/status/pjgpetecodes.ContosoAir?branchName=master)](https://dev.azure.com/az400-2/az400/_build/latest?definitionId=1&branchName=master)
 
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
