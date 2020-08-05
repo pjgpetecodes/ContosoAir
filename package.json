@@ -7,9 +7,9 @@
     "local:build": "webpack --env.NODE_ENV=development --mode=development",
     "build": "exit 0",
     "unit-test": "/usr/local/bin/node/jest",
-    "int-test": "jest --testRegex=.*\\.ispec\\.js$",
-    "test": "jest --testRegex=.*\\.i?spec\\.js$",
-    "all-test:watch": "jest --watch --testRegex=.*\\.i?spec\\.js$"
+    "int-test": "/usr/local/bin/node/jest --testRegex=.*\\.ispec\\.js$",
+    "test": "/usr/local/bin/node/jest --testRegex=.*\\.i?spec\\.js$",
+    "all-test:watch": "/usr/local/bin/node/jest --watch --testRegex=.*\\.i?spec\\.js$"
   },
   "jest": {
     "testResultsProcessor": "jest-junit-reporter",
