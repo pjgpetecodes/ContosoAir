@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/az400-2/az400/_apis/build/status/pjgpetecodes.ContosoAir?branchName=master)](https://dev.azure.com/az400-2/az400/_build/latest?definitionId=1&branchName=master)
+
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
 
