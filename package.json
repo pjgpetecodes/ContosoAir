@@ -6,10 +6,10 @@
     "start": "node ./server.js --production",
     "local:build": "webpack --env.NODE_ENV=development --mode=development",
     "build": "exit 0",
-    "unit-test": "/usr/local/bin/node/jest",
-    "int-test": "/usr/local/bin/node/jest --testRegex=.*\\.ispec\\.js$",
-    "test": "/usr/local/bin/node/jest --testRegex=.*\\.i?spec\\.js$",
-    "all-test:watch": "/usr/local/bin/node/jest --watch --testRegex=.*\\.i?spec\\.js$"
+    "unit-test": "jest",
+    "int-test": "jest --testRegex=.*\\.ispec\\.js$",
+    "test": "jest --testRegex=.*\\.i?spec\\.js$",
+    "all-test:watch": "jest --watch --testRegex=.*\\.i?spec\\.js$"
   },
   "jest": {
     "testResultsProcessor": "jest-junit-reporter",
@@ -29,6 +29,8 @@
     "express-session": "^1.15.6",
     "handlebars": "^4.0.12",
     "i18n": "^0.8.3",
+    "jest": "^24.0.0",
+    "jest-junit-reporter": "^1.1.0",
     "moment": "^2.22.2",
     "mongoose": "^5.3.7",
     "morgan": "~1.9.0",
